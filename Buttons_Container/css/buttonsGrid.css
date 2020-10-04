@@ -1,0 +1,17 @@
+body
+{
+  background:black;
+}
+
+#btns
+{
+  width:75%;
+  position: relative;
+}
+
+.btn
+{
+  width:30%;
+  height:48px;
+  font-size:24px;
+}
