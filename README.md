@@ -5,4 +5,4 @@
 2. Binary Calculator
 3. Buttons Container
 4. Tip Calculator
-5. Modal Project
+5. Modal Project (working)
