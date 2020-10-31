@@ -9,14 +9,27 @@
 </head>
 
 <body>
-    <div id="">
-        <h1>Modal implementaion</h1>
+    <div>
+        <h1>Modal implementation</h1>
+        <!-- images to open the modal -->
         <div class="row">
-            <div class="col-lg-4 col-md-6 column"> <img src="img/train.jpeg"> </div>
-            <div class="col-lg-4 col-md-6 column"> <img src="img/pcb.jpeg"> </div>
-            <div class="col-lg-4 col-md-6 column"> <img src="img/bridge.jpeg"> </div>
+            <div class="col-lg-4 col-md-6 column"> <img src="img/train.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow"> </div>
+            <div class="col-lg-4 col-md-6 column"> <img src="img/pcb.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow"> </div>
+            <div class="col-lg-4 col-md-6 column"> <img src="img/bridge.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow"> </div>
+        </div>  
+        
+        <!-- Modal -->
+        <div class="myModal" id="myModal">
+            <span class="close" id="close-modal" onclick="closeModal()">&times;</span>
+
+            <div class="modal-content"><div class="modal-img"><img src="img/train.jpeg"></div></div>
+            <div class="modal-content"><div class="modal-img"><img src="img/pcb.jpeg"></div></div>
+            <div class="modal-content"><div class="modal-img"><img src="img/bridge.jpeg"></div></div>
+
         </div>
     </div>
+
+    
 
     
     <script type="text/javascript" src="modal.js"></script>
