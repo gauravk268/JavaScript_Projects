@@ -31,15 +31,16 @@ h1{
 	opacity: 0.7;
 }
 
-.modal{
+#myModal{
 	display: none;
 	position: fixed;
-	z-index: 1;
-	padding-top: 50px;
-	left: 0;
 	top: 0;
-	height: 100%;
-	width: auto;
+	left: 0;
+	padding: 50px;
+
+	height: auto;
+	width: 100%;
+
 	background-color: black;
 	background-color: rgba(0, 0, 0, 0.9);
 
@@ -48,18 +49,21 @@ h1{
 
 .modal-content{
 	background-color: blue;
-	width: 80%;
+	width: inherit;
+
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom{
+	from {transform: scale(0);}
+	to {transform: scale(1);}
 }
 
 .modal-img{
 	text-align: center;
-
-	max-height: 700px;
-	height: auto;
-	width: auto;
-
-	background-color: inherit;
-	border: 2px solid red;
+	max-height: 600px;
+	width: 100%;
 }
 
 @keyframes zoom{
@@ -75,6 +79,8 @@ h1{
 	height: 64px;
 	width: 64px;
 
+	border-radius: 20px;
+
 	font-size: 30px;
 
 	font-weight: bold;
@@ -88,4 +94,10 @@ h1{
 	cursor: pointer;
 
 	background-color: red;	
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
 }
