@@ -64,11 +64,10 @@ h1{
 	text-align: center;
 	max-height: 600px;
 	width: 100%;
-}
+	height: auto;
 
-@keyframes zoom{
-	from{transform:scale(0);}
-	to{transform:scale(1);}
+	border: 1px dashed white;
+	border-radius: 5px;
 }
 
 .close-modal{
@@ -85,6 +84,8 @@ h1{
 
 	font-weight: bold;
 	transition: 0.3s;
+
+	z-index: 1;
 }
 
 .close-modal:hover,
@@ -97,7 +98,15 @@ h1{
 }
 
 @media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
+	.modal-content {
+		width: 100%;
+	}
+
+    .hover-shadow{
+		width: 240px;
+	}
+
+	#myModal{
+		padding: 5px;
+	}
 }
