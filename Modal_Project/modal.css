@@ -6,15 +6,86 @@ h1{
 	font-family: sans;
 }
 
-img{
-	width: 100%;
-	border-radius: 25px;
-}
-
 .row{
-	padding: 0 16px 0;
+	width: 100%;
 }
 
-.myModal{
+.row .column{
+	width: 30%;
+	text-align: center;
+}
+
+.hover-shadow{
+	border-radius: 30px;
+	cursor: pointer;
+	transition: 0.3s;
+	/*width: 100%;*/
+
+	width: 320px;
+	height: auto;
+
+	padding: 10px;
+}
+
+.hover-shadow:hover{
+	opacity: 0.7;
+}
+
+.modal{
 	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: auto;
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.9);
+
+	text-align: center;
+}
+
+.modal-content{
+	background-color: blue;
+	width: 80%;
+}
+
+.modal-img{
+	text-align: center;
+
+	max-height: 700px;
+	height: auto;
+	width: auto;
+
+	background-color: inherit;
+	border: 2px solid red;
+}
+
+@keyframes zoom{
+	from{transform:scale(0);}
+	to{transform:scale(1);}
+}
+
+.close-modal{
+	position: absolute;
+	top: 2px;
+	right: 5px;
+	color: #f1f1f1;
+	height: 64px;
+	width: 64px;
+
+	font-size: 30px;
+
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close-modal:hover,
+.close-modal:focus{
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+
+	background-color: red;	
 }
