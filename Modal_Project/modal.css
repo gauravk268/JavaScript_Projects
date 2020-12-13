@@ -1,25 +1,27 @@
-h1{
+html{
+	font-family: sans-serif;
+	font-size=1em;
+	padding: 16px 16px;
+
 	text-align: center;
 	text-transform: uppercase;
-	padding: 16px 16px;
-	font-weight: bold;
-	font-family: sans;
 }
 
 .row{
 	width: 100%;
+	padding: 16px;
 }
 
 .row .column{
 	width: 30%;
-	text-align: center;
+	float: center;
+	padding: 12px;
 }
 
 .hover-shadow{
 	border-radius: 30px;
 	cursor: pointer;
-	transition: 0.3s;
-	/*width: 100%;*/
+	transition: 0.5s;
 
 	width: 320px;
 	height: auto;
@@ -31,7 +33,7 @@ h1{
 	opacity: 0.7;
 }
 
-#myModal{
+.myModal{
 	display: none;
 	position: fixed;
 	top: 0;
@@ -70,6 +72,13 @@ h1{
 	border-radius: 5px;
 }
 
+.modal-on{
+	opacity: 0.5;
+	background-color:rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: auto;
+}
+
 .close-modal{
 	position: absolute;
 	top: 2px;
@@ -78,9 +87,10 @@ h1{
 	height: 64px;
 	width: 64px;
 
-	border-radius: 20px;
+	display: block;
 
-	font-size: 30px;
+	border-radius: 20px;
+	font-size: 35px;
 
 	font-weight: bold;
 	transition: 0.3s;
@@ -94,6 +104,7 @@ h1{
 	text-decoration: none;
 	cursor: pointer;
 
+	border-radius: 50%;
 	background-color: red;	
 }
 
@@ -106,7 +117,7 @@ h1{
 		width: 240px;
 	}
 
-	#myModal{
+	.myModal{
 		padding: 5px;
 	}
 }

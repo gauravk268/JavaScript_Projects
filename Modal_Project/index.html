@@ -9,30 +9,59 @@
 </head>
 
 <body>
-    <div>
-        <h1>Modal implementation</h1>
-        <!-- images to open the modal -->
-        <div class="row">
+    <div class="main">
+        <!-- <h1>Modal implementation</h1>
+        <div class="row modal-thumb">
             <div class="col-lg-4 col-md-6 col-12 column"> <img src="img/train-thumb.jpeg" onclick="openModal();showSlides(0)" class="hover-shadow"> </div>
             <div class="col-lg-4 col-md-6 col-12 column"> <img src="img/pcb-thumb.jpeg" onclick="openModal();showSlides(1)" class="hover-shadow"> </div>
             <div class="col-lg-4 col-md-6 col-12 column"> <img src="img/bridge-thumb.jpeg" onclick="openModal();showSlides(2)" class="hover-shadow"> </div>
         </div>  
         
-        <div class="modal" id="myModal">
+        <div class="modal">
             <span class="close-modal" onclick="closeModal()">&times;</span>
-Zx
             <div class="modal-content"><img class="modal-img" src="img/train.jpeg"></div>
             <div class="modal-content"><img class="modal-img" src="img/pcb.jpeg"></div>
             <div class="modal-content"><img class="modal-img" src="img/bridge.jpeg"></div>
-        </div>
-
-        <!-- <div class="modal-content"><img class="modal-img" src="img/bridge.jpeg"></div> -->
+        </div> -->
     </div>
 
     
 
     
-    <script type="text/javascript" src="modal.js"></script>
+    <script>
+        var myModal = document.getElementByClassName("myModal");
+        var slides = document.getElementsByClassName("modal-content");
+        const body = document.querySelector(`.main`);
+
+        console.log(body);
+
+        function openModal(){
+            myModal.style.display = "block";
+
+            body.classList.add('.modal-on');
+        }
+
+        function closeModal(){
+            myModal.style.display = "none";
+            document.getElementsByClassName("main").classList.add('.modal-on');
+        }
+
+        window.onclick = function(event){
+            if(event.target == myModal)
+            {
+                myModal.style.display = "none";
+            }
+        }
+
+        function showSlides(n){
+            var i;
+            for(i=0; i<slides.length; i++){
+                slides[i].style.display = "none";
+            }
+
+            slides[n].style.display = "block";
+        }
+    </script>
 </body>
 
 </html>
