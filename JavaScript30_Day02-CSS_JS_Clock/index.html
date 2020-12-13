@@ -9,6 +9,7 @@
     <body>
         <div class="clock">
             <div class="clock-face">
+                <div class="clock-center"></div>
                 <div class="hand hour-hand"></div>
                 <div class="hand min-hand"></div>
                 <div class="hand sec-hand"></div>
@@ -34,9 +35,9 @@
             }
 
             .clock{
-                width: 30rem;
-                height: 30rem;
-                border: 20px solid white;
+                width: 40rem;
+                height: 40rem;
+                border: 20px solid rgb(121, 59, 59);
                 border-radius: 50%;
                 margin: 50px auto;
                 position: relative;
@@ -55,15 +56,42 @@
                 transform: translateY(-3px);
             }
 
+            .clock-center{
+                background: black;
+                border-radius: 50%;
+                height: 18px;
+                width: 18px;
+                margin: 50% auto;
+                position: absolute;
+                top: -2%;
+                left: 47.5%;
+                
+                z-index:1;
+            }
+
             .hand{
                 width: 50%;
-                height: 6px;
-                background: black;
                 position: absolute;
                 top: 50%;
                 transform-origin: 100%;
                 transform: rotate(90deg);
             }
+
+            .sec-hand{
+                background: red;
+                height: 4px;
+            }
+
+            .min-hand{
+                background: yellow;
+                height: 8px;
+            }
+
+            .hour-hand{
+                background: purple;
+                height: 14px;
+            }
+
         </style>
 
         <script>
