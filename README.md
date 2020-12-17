@@ -2,9 +2,9 @@
 
 ## Projects implemented till now are as follows:
 <ol>
-  <li><a href="https://gauravk268.github.io/JavaScript_Projects/Animated_Navigation_Toggle_&_Menu/index.html">Animated Navigation Toggle & Menu</a></li>
-  <li><a href="https://gauravk268.github.io/JavaScript_Projects/Binary_Calculator/index.html">Binary Calculator</a></li>
-  <li><a href="https://gauravk268.github.io/JavaScript_Projects/Buttons_Container/index.html">Buttons Container (rotates on clicking on 5)</a></li>
+  <li><a href="https://gauravk268.github.io/JavaScript_Projects/Animated_Navigation_Toggle_&_Menu/index.html" target="_blank">Animated Navigation Toggle & Menu</a></li>
+  <li><a href="https://gauravk268.github.io/JavaScript_Projects/Binary_Calculator/index.html" target="_blank">Binary Calculator</a></li>
+  <li><a href="https://gauravk268.github.io/JavaScript_Projects/Buttons_Container/index.html" >Buttons Container (rotates on clicking on 5)</a></li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Tip_Calculator/index.html">Tip Calculator</a></li>
   <li>JavaScript Projects
     <ol type="i">
