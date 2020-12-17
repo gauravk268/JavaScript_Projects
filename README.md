@@ -10,8 +10,9 @@
     <ol type="i">
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day01-Drum_Kit/index.html">Day01: Drum Kit</a></li>
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day02-CSS_JS_Clock/index.html">Day02: CSS+JS Clock</a></li>
-      <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day03-CSS%2BJS%20Practice/index.html">Day03: CSS+JS Variable Practice</a></li>
-      <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day04-Array%20Cardio%20Day%201/index.html">Day04: Array Cardio 1</a></li>
+      <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day03-CSS%2BJS_Practice/index.html">Day03: CSS+JS Variable Practice</a></li>
+      <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day04-Array_Cardio_Day_1/index.html">Day04: Array Cardio 1</a></li>
+      <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day05-Flex_Panel_Gallery/index.html">Day05: Flex Panel Gallery</a></li>
     </ol>
   </li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Modal_Project/index.html">Modal Project (on-going)</a></li>
