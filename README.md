@@ -6,7 +6,7 @@
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Binary_Calculator/index.html" target="_blank">Binary Calculator</a></li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Buttons_Container/index.html" target="_blank" >Buttons Container (rotates on clicking on 5)</a></li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Tip_Calculator/index.html" target="_blank">Tip Calculator</a></li>
-  <li>JavaScript Projects
+  <li>JavaScript30 Projects
     <ol type="i">
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day01-Drum_Kit/index.html" target="_blank">Day01: Drum Kit</a></li>
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day02-CSS_JS_Clock/index.html" target="_blank">Day02: CSS+JS Clock</a></li>
