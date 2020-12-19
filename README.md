@@ -15,6 +15,8 @@
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day04-Array_Cardio_Day1/index.html" target="_blank">Day04: Array Cardio 1</a></li>
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day05-Flex_Panel_Gallery/index.html" target="_blank">Day05: Flex Panel Gallery</a></li>
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day06-Type_Ahead/index.html" target="_blank">Day06: Suggestions on typing</a></li>
+      <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day07-Array_Cardio_Day2/index.html" target="_blank">Day07: Suggestions on typing</a></li>
+      <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day08-HTML5_Canvas/index.html" target="_blank">Day08: Suggestions on typing</a></li>
     </ol>
   </li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Modal_Project/index.html">Modal Project (on-going)</a></li>
