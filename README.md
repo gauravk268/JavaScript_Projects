@@ -1,6 +1,7 @@
 # JavaScript_Projects
 
 ## Projects implemented till now are as follows:
+
 <ol>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Animated_Navigation_Toggle_&_Menu/index.html" target="_blank">Animated Navigation Toggle & Menu</a></li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Binary_Calculator/index.html" target="_blank">Binary Calculator</a></li>

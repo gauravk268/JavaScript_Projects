@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charsey="utf-8" />
+    <title>PreLoading Screen</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="bg-img main">
+      <div class="txt" id="txt">Testing Preloading Screen!!!</div>
+    </div>
+
+
+    <div class="loader-container" id="loader">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    
+
+    <script>
+      fadeOutEffect();
+      window.onload = function (e) {
+        fadeOutEffect();
+      };
+
+      function fadeOutEffect() {
+        var fadeTarget = document.getElementById("loader");
+        var fadeEffect = setInterval(function () {
+          if (!fadeTarget.style.opacity) {
+            fadeTarget.style.opacity = 1;
+          }
+          if (fadeTarget.style.opacity > 0) {
+            fadeTarget.style.opacity -= 0.03;
+          } else {
+            clearInterval(fadeEffect);
+          }
+        }, 30);
+        
+        loaderCompleted = true;
+      }
+    </script>
+    
+  </body>
+</html>
