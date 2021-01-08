@@ -76,6 +76,8 @@
           target="_blank">Day24: Sticky Nav</a></li>
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day25-Event_Capture,_Propagation,_Bubbling_and_Once/index-START.html"
           target="_blank">Day25: Event Capture, Propagation, Bubbling and Once</a></li>
+      <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day26-Stripe_Follow_Along_Nav/index-START.html"
+          target="_blank">Day26: Stripe Follow Along Nav</a></li>
     </ol>
   </li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Modal_Project/index.html">Modal Project (on-going)</a>
