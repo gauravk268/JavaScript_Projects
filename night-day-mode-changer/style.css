@@ -1,14 +1,15 @@
 body, h1{
-  margin: 0;
+  margin: 0 auto;
 }
 
 .text{
-  margin: 0 auto;
-  text-align: center;
-  position: absolute;
+  position: relative;
   top: 30%;
+  text-align: center;
   font-size: 3rem;
-  /* border: 2px solid red; */
+  padding: 1rem 1rem;
+  color: #1a1a1a;
+  margin: 0 auto;
 }
 
 .main {
@@ -19,10 +20,8 @@ body, h1{
     #7b5fac 25%,
     #8f6aae 38%,
     #a86aa4 50%,
-    #cc6b8e 62%,
-    #f18271 75%,
-    #f3a469 87%,
-    #f7c978 100%
+    #cc6b8e 70%,
+    #f18271 100%
   );
 
   background-repeat: no-repeat;
@@ -35,16 +34,11 @@ body, h1{
 }
 
 .main.night{
-  background-image: linear-gradient(
-    to top,
-    #1a1a1a 0%,
-    #1a1a1a 100%
-  );
+  background: rgba(26, 26, 26, 0.9);
 }
 
 .night .text{
   color: turquoise;
-  /* border: 2px solid red; */
 }
 
 .switch {
@@ -111,3 +105,21 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* @keyframes bgColorChange{
+  0% {background-color: #cc6b8e; } 
+  20% {background-color: #a86aa4;}
+  40% {background-color: #8f6aae;}
+  60% {background-color:  #7b5fac;}
+  80% { background-color: #5a55ae;}
+  100% {background: rgba(26, 26, 26, 0.9);}
+}
+
+@keyframes fontColorChange{
+  0% {color: #4971fd;}
+  20% { color: #4290e3;}
+  40% { color: #56d2fa;}
+  60% { color: #42e3e1;}
+  80% { color: #49fdc7;}
+  100% { color: turquoise;}
+} */
