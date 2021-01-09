@@ -11,6 +11,7 @@
       Container (rotates on clicking on 5)</a></li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Tip_Calculator/index.html" target="_blank">Tip
       Calculator</a></li>
+	<li><a href="https://gauravk268.github.io/JavaScript_Projects/Night-Day_Mode_Changer/index.html" target="_blank">Day to Night Mode Changer</a></li>
   <li>JavaScript30 Projects
     <ol type="i">
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day01-Drum_Kit/index.html"
@@ -78,6 +79,8 @@
           target="_blank">Day25: Event Capture, Propagation, Bubbling and Once</a></li>
       <li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day26-Stripe_Follow_Along_Nav/index-START.html"
           target="_blank">Day26: Stripe Follow Along Nav</a></li>
+			<li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day27-Click_and_Drag/index-START.html"
+          target="_blank">Day27: Click and Drag</a></li>
     </ol>
   </li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Modal_Project/index.html">Modal Project (on-going)</a>
