@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="main">
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+
+    <div class="text"><h1>This is a simple webpage.</h1></div>
+  </div>
+
+  
+
+  <script>
+    const switchTheme = document.querySelector('.slider');
+    const mainContainer = document.querySelector('.main');
+    let isDay = true;
+
+    switchTheme.addEventListener('click', (e) => {
+      // console.log(this);
+      if(isDay){
+        mainContainer.classList.add('night');
+        isDay = !isDay;
+      }
+      else{
+        mainContainer.classList.remove('night');
+        isDay = !isDay;
+      }
+    });
+  </script>
+</body>
+
+</html>

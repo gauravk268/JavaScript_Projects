@@ -1,0 +1,113 @@
+body, h1{
+  margin: 0;
+}
+
+.text{
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  font-size: 3rem;
+  /* border: 2px solid red; */
+}
+
+.main {
+  background-image: linear-gradient(
+    to top,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.main.night{
+  background-image: linear-gradient(
+    to top,
+    #1a1a1a 0%,
+    #1a1a1a 100%
+  );
+}
+
+.night .text{
+  color: turquoise;
+  /* border: 2px solid red; */
+}
+
+.switch {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: url(https://www.pngfind.com/pngs/m/223-2232869_png-file-svg-moon-icon-circle-png-transparent.png)
+    no-repeat;
+  background-size: 26px 26px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+input:checked + .slider {
+  background-color: #778899;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #bada55;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background: url(https://cdn4.iconfinder.com/data/icons/sun-11/50/44-512.png);
+  background-size: 26px 26px;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
