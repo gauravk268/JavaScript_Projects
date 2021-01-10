@@ -81,6 +81,8 @@
           target="_blank">Day26: Stripe Follow Along Nav</a></li>
 			<li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day27-Click_and_Drag/index-START.html"
           target="_blank">Day27: Click and Drag</a></li>
+			<li><a href="https://gauravk268.github.io/JavaScript_Projects/JavaScript30_Projects/Day28-Video_Speed_Controller/index-START.html"
+          target="_blank">Day28: Video Speed Controller</a></li>
     </ol>
   </li>
   <li><a href="https://gauravk268.github.io/JavaScript_Projects/Modal_Project/index.html">Modal Project (on-going)</a>
