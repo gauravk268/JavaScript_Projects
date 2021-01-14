@@ -1,67 +1,54 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Modal Implementation</title>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="modal.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" type="text/css" href="modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="main">
-        <!-- <h1>Modal implementation</h1>
-        <div class="row modal-thumb">
-            <div class="col-lg-4 col-md-6 col-12 column"> <img src="img/train-thumb.jpeg" onclick="openModal();showSlides(0)" class="hover-shadow"> </div>
-            <div class="col-lg-4 col-md-6 col-12 column"> <img src="img/pcb-thumb.jpeg" onclick="openModal();showSlides(1)" class="hover-shadow"> </div>
-            <div class="col-lg-4 col-md-6 col-12 column"> <img src="img/bridge-thumb.jpeg" onclick="openModal();showSlides(2)" class="hover-shadow"> </div>
-        </div>  
-        
-        <div class="modal">
-            <span class="close-modal" onclick="closeModal()">&times;</span>
-            <div class="modal-content"><img class="modal-img" src="img/train.jpeg"></div>
-            <div class="modal-content"><img class="modal-img" src="img/pcb.jpeg"></div>
-            <div class="modal-content"><img class="modal-img" src="img/bridge.jpeg"></div>
-        </div> -->
+      <h1>Modal implementation</h1>
+      <div class="modal-thumb">
+        <img src="img/train-thumb.jpeg" alt="train image"/>
+        <img src="img/pcb-thumb.jpeg" alt="pvb image"/>
+        <img src="img/bridge-thumb.jpeg" alt="bridge image"/>
+      </div>
+
+      <div class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+      </div>
     </div>
 
-    
-
-    
     <script>
-        var myModal = document.getElementByClassName("myModal");
-        var slides = document.getElementsByClassName("modal-content");
-        const body = document.querySelector(`.main`);
+      const modal = [...document.querySelectorAll(".modal-content")];
+      const modal_img = document.getElementById('modal-img');
+      const modal_caption = document.getElementById('caption');
+        
+      function openModal(i){
+        modal.style.display = "block";
+        modal_img.src = modal[i].src;
+        modal_caption.innerHTML = modal[i].alt;
+        console.log("complete");
+      }
 
-        console.log(body);
+      for(var i=0; i<modal.length; i++){
+        modal[i].addEventListener('click', openModal[i]);
+      }
 
-        function openModal(){
-            myModal.style.display = "block";
-
-            body.classList.add('.modal-on');
-        }
-
-        function closeModal(){
-            myModal.style.display = "none";
-            document.getElementsByClassName("main").classList.add('.modal-on');
-        }
-
-        window.onclick = function(event){
-            if(event.target == myModal)
-            {
-                myModal.style.display = "none";
-            }
-        }
-
-        function showSlides(n){
-            var i;
-            for(i=0; i<slides.length; i++){
-                slides[i].style.display = "none";
-            }
-
-            slides[n].style.display = "block";
-        }
+      function closeModal() {
+        modal.forEach(() => this.classList.remove("modal-on"));
+      }
     </script>
-</body>
-
+  </body>
 </html>
